@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+* {
+    font-family: 'Montserrat-thin' sans-serif;
+}
+
+#title {
+    background-color: #b887f8;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: black;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.container-fluid {
+    padding: 3% 10%;
+}
+
+i {
+    padding-right: 0.3rem;
+}
+
+.rotate {
+    width: 60%;
+    transform: rotate(20deg);
+    z-index: 1;
+    position: relative;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+    justify-content: space-around;
+}
+
+#features {
+    padding-block: 10%;
+    margin-top: -13rem;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    position: relative;
+}
+
+#features i {
+    opacity: 0.7;
+    color: #da86f6;
+    line-height: 1.5;
+}
+
+#features i:hover {
+    opacity: 1;
+}
+
+.bg-red {
+    background-color: #de90fa;
+    position: relative;
+}
+
+#testimonials {
+    /* position: relative; */
+    padding-block: 3rem;
+    font-family: 'Montserrat';
+
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-align: center;
+}
+
+em {
+    font-weight: 200;
+}
+
+.carousel {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-bottom: 3rem;
+}
+
+.img-circle {
+    border-radius: 50%;
+    height: 10%;
+    width: 10%;
+}
+
+#pricing {
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+
+}
+
+#cta {
+    background-color: #d590fa;
+    text-align: center;
+    padding: 10% 15%;
+}
+
+#cta h3 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 3.5rem;
+    color: white;
+}
+
+#cta button {
+    padding: 0.5% 1%;
+    margin: 0.4rem;
+    width: max-content;
+}
+
+#footer {
+    text-align: center;
+    padding: 7% 10%;
+}
+
+#footer i {
+    margin: 0.4rem;
+}
+
+p {
+    color: rgb(135, 133, 133);
+    padding: 1%;
+}
